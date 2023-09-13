@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("pen.jpg");
+    background-size: 100vw 100vh ;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+.btn{
+    padding: 8px;
+    background-color: rgb(168, 102, 72);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button.add{
+    width: 140px;
+    height: 41px;
+    background-color: rgb(168, 102, 72);
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: brown;
+    color: black;
+    box-shadow: 10px 10px 10px 2px;
+    font-size: 20px;
+}
